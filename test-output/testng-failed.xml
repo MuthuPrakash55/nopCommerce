@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="testcases.homepage_test">
+        <methods>
+          <include name="before"/>
+          <include name="navigate_to_registerPage"/>
+          <include name="after_method"/>
+          <include name="without_enter_clicking_register"/>
+          <include name="after"/>
+          <include name="enter_valid_credentials_registerPage"/>
+          <include name="before_method"/>
+        </methods>
+      </class> <!-- testcases.homepage_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
